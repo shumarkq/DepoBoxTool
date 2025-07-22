@@ -1,33 +1,33 @@
-# DepoBoxTool v2.0 - Refactored and Enhanced
+# DepoBoxTool v3.0 - Refactored and Enhanced
 
 **Author:** Qian Shu  
 **Contact:** shumarkq@gmail.com  
-**Version:** 2.0.0 (Refactored)
+**Version:** 3.0.0
 
 DepoBoxTool is a comprehensive, modern Python-based framework for testing and evaluating dry deposition algorithms across various land use categories. This tool has been completely refactored for v2.0 to provide enhanced object-oriented design, comprehensive evaluation capabilities, and modern software engineering practices.
 
-## 🎯 Key Features
+## Key Features
 
-### ✨ **Completely Refactored Architecture**
+### **Completely Refactored Architecture**
 - **Object-oriented design** with clear inheritance hierarchy
 - **Modular structure** enabling easy extension and maintenance
 - **Type safety** with comprehensive type hints
 - **Robust error handling** and input validation
 
-### 📊 **Comprehensive Evaluation Framework**
+### **Comprehensive Evaluation Framework**
 - **20+ statistical metrics** for model performance assessment
 - **Advanced visualization tools** with publication-quality plots
 - **Model comparison utilities** with automated ranking
 - **Structured result objects** for easy data analysis
 
-### 🔬 **Multiple Deposition Models**
+### **Multiple Deposition Models**
 - **PR11** - Original CMAQ scheme (pre-v5.3)
 - **VGLAI** - Enhanced scheme with LAI dependence (v5.3+)
 - **STAGE** - Alternative parameterization
 - **Z01** - Zhang et al. (2001) approach
 - **CSU** - Colorado State University scheme
 
-### 🌍 **Flexible Land Use Management**
+### **Flexible Land Use Management**
 - **Standardized parameter library** for common surface types
 - **Automated parameter generation** for different models
 - **Extensible framework** for custom land use definitions
@@ -37,7 +37,7 @@ DepoBoxTool is a comprehensive, modern Python-based framework for testing and ev
 - **Modal distributions** with log-normal size distributions
 - **Comprehensive size distribution analysis**
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Installation
 ```bash
@@ -90,7 +90,7 @@ summary = evaluator.comprehensive_evaluation(observed_data, predicted_data)
 print(summary.to_dataframe())
 ```
 
-## 📈 What's New in v2.0
+## What's New in v3.0
 
 ### Major Improvements
 - **250% increase in codebase** with comprehensive documentation
@@ -140,7 +140,7 @@ To use DepoBoxTool
         2. then redo step 1
 ```
         
-# DepoBoxToolv2.0 structure
+# DepoBoxToolv3.0 structure
 ```bash
 packaging_tutorial/
 ├── README.md
